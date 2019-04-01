@@ -1,6 +1,6 @@
 let constants = {}
 
-constants.organization = 'poanetwork'
+constants.organization = 'makerdao'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -10,25 +10,10 @@ constants.userDeniedTransactionPattern = 'User denied transaction'
 constants.baseURL = '/poa-dapps-keys-generation'
 
 constants.NETWORKS = {
-  '77': {
-    NAME: 'Sokol',
-    BRANCH: 'sokol',
+  '176': {
+    NAME: 'Maker',
+    BRANCH: 'maker',
     TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    BRANCH: 'core',
-    TESTNET: false
-  },
-  '79': {
-    NAME: 'Dai-Test',
-    BRANCH: 'dai-test',
-    TESTNET: true
-  },
-  '100': {
-    NAME: 'Dai',
-    BRANCH: 'dai',
-    TESTNET: false
   }
 }
 
